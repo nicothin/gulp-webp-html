@@ -1,4 +1,4 @@
-# gulp-webp-css
+# gulp-webp-html
 
 ## Example
 ```html
