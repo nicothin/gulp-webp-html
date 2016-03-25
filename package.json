@@ -1,0 +1,31 @@
+{
+  "name": "gulp-webp-html",
+  "version": "1.0.0",
+  "description": "replace <img/> to <picture/> supports webp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seokirill",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "repository": {
+    "url": "git://github.com/seokirill/gulp-webp-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seokirill/gulp-webp-html/issues"
+  },
+  "homepage": "https://github.com/seokirill/gulp-webp-html#readme",
+  "_shasum": "c9c0b09dbf452ab435c45b181b09ada3290ac687",
+  "_from": "gulp-webp-css@*",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "keywords": [
+    "webp"
+  ]
+}
