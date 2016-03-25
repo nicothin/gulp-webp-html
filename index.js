@@ -35,7 +35,7 @@ module.exports = function(extensions){
                         // Проверяем есть ли <img/>
                         if((line.indexOf('<img') + 1) && !inPicture){
                             // Новый урл с .webp
-                            var Re = /<img([^>]*)src=\"(\S+)\">/ig;
+                            var Re = /<img([^>]*)src=\"(\S+)\"([^>]*)>/ig;
                             var regexpArray = Re.exec(line);
                             var imgTag = regexpArray[0];
                             var newUrl = regexpArray[2];
