@@ -51,7 +51,7 @@ module.exports = function(extensions){
                         }
                         return line;
                     })
-                    .join('');
+                    .join('\n');
             file.contents = new Buffer(data);
             this.push(file);
         } catch (err) {
