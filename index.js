@@ -2,7 +2,7 @@ const gutil = require('gulp-util');
 const PluginError = gutil.PluginError;
 const through = require('through2');
 
-const pluginName = 'gulp-webp-css';
+const pluginName = 'gulp-webp-html';
 
 module.exports = function(extensions){
     var extensions = extensions || ['.jpg','.png','.jpeg','JPG'];
